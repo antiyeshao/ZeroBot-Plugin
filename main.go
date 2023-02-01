@@ -77,7 +77,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"       // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"      // DeepDanbooru二次元图标签识别
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"         // 嘉心糖发病
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"         // 女装
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"         // 女装
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"  // 漂流瓶
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"      // 合成emoji
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"         // 好友申请群聊邀请事件处理
@@ -88,7 +88,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"           // 制图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"        // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"    // 猜歌
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/heisi"         // 黑丝
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/heisi"         // 黑丝
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"            // 炉石
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"         // 百人一首
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder"  // 关键字搜图
@@ -238,7 +238,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
+	sus = append(sus, 3305114625)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
